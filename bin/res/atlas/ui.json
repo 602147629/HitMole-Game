@@ -1,0 +1,411 @@
+{
+    "frames": {
+        "clip_number.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 178,
+                "h": 24,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 178,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 178,
+                "h": 24
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "hammer.png": {
+            "frame": {
+                "x": 180,
+                "y": 0,
+                "w": 98,
+                "h": 77,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 98,
+                "h": 77
+            },
+            "sourceSize": {
+                "w": 98,
+                "h": 77
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "mask-01.png": {
+            "frame": {
+                "x": 280,
+                "y": 0,
+                "w": 138,
+                "h": 46,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 138,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 138,
+                "h": 46
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "mask-02.png": {
+            "frame": {
+                "x": 280,
+                "y": 48,
+                "w": 138,
+                "h": 46,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 138,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 138,
+                "h": 46
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "mask-03.png": {
+            "frame": {
+                "x": 0,
+                "y": 26,
+                "w": 138,
+                "h": 46,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 138,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 138,
+                "h": 46
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "mask-04.png": {
+            "frame": {
+                "x": 0,
+                "y": 74,
+                "w": 138,
+                "h": 46,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 138,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 138,
+                "h": 46
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "mask-05.png": {
+            "frame": {
+                "x": 140,
+                "y": 79,
+                "w": 138,
+                "h": 46,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 138,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 138,
+                "h": 46
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "mask-06.png": {
+            "frame": {
+                "x": 0,
+                "y": 122,
+                "w": 138,
+                "h": 46,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 138,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 138,
+                "h": 46
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "mask-07.png": {
+            "frame": {
+                "x": 280,
+                "y": 96,
+                "w": 138,
+                "h": 46,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 138,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 138,
+                "h": 46
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "mask-08.png": {
+            "frame": {
+                "x": 140,
+                "y": 127,
+                "w": 138,
+                "h": 46,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 138,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 138,
+                "h": 46
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "mask-09.png": {
+            "frame": {
+                "x": 0,
+                "y": 170,
+                "w": 132,
+                "h": 46,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 132,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 132,
+                "h": 46
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "mouse_hit_1.png": {
+            "frame": {
+                "x": 280,
+                "y": 144,
+                "w": 111,
+                "h": 104,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 111,
+                "h": 104
+            },
+            "sourceSize": {
+                "w": 111,
+                "h": 104
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "mouse_hit_2.png": {
+            "frame": {
+                "x": 134,
+                "y": 175,
+                "w": 111,
+                "h": 104,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 111,
+                "h": 104
+            },
+            "sourceSize": {
+                "w": 111,
+                "h": 104
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "mouse_normal_1.png": {
+            "frame": {
+                "x": 0,
+                "y": 218,
+                "w": 111,
+                "h": 104,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 111,
+                "h": 104
+            },
+            "sourceSize": {
+                "w": 111,
+                "h": 104
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "mouse_normal_2.png": {
+            "frame": {
+                "x": 247,
+                "y": 250,
+                "w": 111,
+                "h": 104,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 111,
+                "h": 104
+            },
+            "sourceSize": {
+                "w": 111,
+                "h": 104
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "progress_time$bar.png": {
+            "frame": {
+                "x": 0,
+                "y": 356,
+                "w": 301,
+                "h": 23,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 301,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 301,
+                "h": 23
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "progress_time.png": {
+            "frame": {
+                "x": 0,
+                "y": 381,
+                "w": 301,
+                "h": 23,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 301,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 301,
+                "h": 23
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "score_1.png": {
+            "frame": {
+                "x": 0,
+                "y": 324,
+                "w": 86,
+                "h": 30,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 86,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 86,
+                "h": 30
+            },
+            "rotated": false,
+            "trimed": false
+        },
+        "score_2.png": {
+            "frame": {
+                "x": 88,
+                "y": 324,
+                "w": 86,
+                "h": 30,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 86,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 86,
+                "h": 30
+            },
+            "rotated": false,
+            "trimed": false
+        }
+    },
+    "meta": {
+        "app": "http:\/\/www.layabox.com",
+        "version": "0.1.0 alpha",
+        "format": "json",
+        "scale": 1,
+        "image": "ui.png",
+        "prefix": "ui\/"
+    }
+}
