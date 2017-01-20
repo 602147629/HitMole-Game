@@ -48,7 +48,7 @@ var Mole = (function () {
         // 受击图
         this.hitState.skin = "ui/mouse_hit_"+ this.type + ".png";
         // 替换飘字皮肤
-        this.scoreImg.skin = "ui/score"+ this.type + ".png";
+        this.scoreImg.skin = "ui/score_"+ this.type + ".png";
         // 常态图让其缓缓的向上移动
         // 让常态图设置为最低点
         this.normalState.y = this.downY;
