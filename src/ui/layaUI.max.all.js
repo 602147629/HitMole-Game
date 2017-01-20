@@ -24,6 +24,49 @@ var GameUI=(function(_super){
 		]);
 		return GameUI;
 	})(View);
+var GameOverUI=(function(_super){
+		function GameOverUI(){
+			
+		    this.restartBtn=null;
+		    this.scoreNums=null;
+
+			GameOverUI.__super.call(this);
+		}
+
+		CLASS$(GameOverUI,'ui.GameOverUI',_super);
+		var __proto__=GameOverUI.prototype;
+		__proto__.createChildren=function(){
+		    
+			laya.ui.Component.prototype.createChildren.call(this);
+			this.createView(GameOverUI.uiView);
+		}
+
+		STATICATTR$(GameOverUI,
+		['uiView',function(){return this.uiView={"type":"View","props":{"width":500,"height":400},"child":[{"type":"Image","props":{"y":0,"x":0,"width":500,"skin":"ui/overBg.png","height":400,"sizeGrid":"14,11,13,12"}},{"type":"Button","props":{"y":283,"x":161,"var":"restartBtn","stateNum":"2","skin":"ui/btn_restart.png"}},{"type":"Image","props":{"y":64,"x":35,"skin":"ui/total Score.png"}},{"type":"Box","props":{"y":177,"x":155,"var":"scoreNums"},"child":[{"type":"Clip","props":{"skin":"ui/clip_number.png","name":"item0","clipX":10}},{"type":"Clip","props":{"x":18,"skin":"ui/clip_number.png","name":"item1","clipX":10}},{"type":"Clip","props":{"x":36,"skin":"ui/clip_number.png","name":"item2","clipX":10}},{"type":"Clip","props":{"x":54,"skin":"ui/clip_number.png","name":"item3","clipX":10}},{"type":"Clip","props":{"x":72,"skin":"ui/clip_number.png","name":"item4","clipX":10}},{"type":"Clip","props":{"x":90,"skin":"ui/clip_number.png","name":"item5","clipX":10}},{"type":"Clip","props":{"x":108,"skin":"ui/clip_number.png","name":"item6","clipX":10}},{"type":"Clip","props":{"x":126,"skin":"ui/clip_number.png","name":"item7","clipX":10}},{"type":"Clip","props":{"x":144,"skin":"ui/clip_number.png","name":"item8","clipX":10}},{"type":"Clip","props":{"x":162,"skin":"ui/clip_number.png","name":"item9","clipX":10}}]}]};}
+		]);
+		return GameOverUI;
+	})(View);
+var GameStartUI=(function(_super){
+		function GameStartUI(){
+			
+		    this.startBtn=null;
+
+			GameStartUI.__super.call(this);
+		}
+
+		CLASS$(GameStartUI,'ui.GameStartUI',_super);
+		var __proto__=GameStartUI.prototype;
+		__proto__.createChildren=function(){
+		    
+			laya.ui.Component.prototype.createChildren.call(this);
+			this.createView(GameStartUI.uiView);
+		}
+
+		STATICATTR$(GameStartUI,
+		['uiView',function(){return this.uiView={"type":"View","props":{"width":800,"height":600},"child":[{"type":"Image","props":{"y":55.5,"x":38.5,"skin":"ui/help.png"}},{"type":"Button","props":{"y":431,"x":311,"var":"startBtn","stateNum":"2","skin":"ui/btn_start.png"}}]};}
+		]);
+		return GameStartUI;
+	})(View);
 var HammerUI=(function(_super){
 		function HammerUI(){
 			

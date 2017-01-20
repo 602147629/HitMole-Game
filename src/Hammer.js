@@ -1,3 +1,6 @@
+/**
+ * 鼠标类
+ */
 var Hammer = (function(_super){
 
     function Hammer(){
@@ -15,6 +18,8 @@ var Hammer = (function(_super){
         // 给舞台添加两个事件
         Laya.stage.on(Laya.Event.MOUSE_DOWN, this, this.onMouseDown);
         Laya.stage.on(Laya.Event.MOUSE_MOVE, this, this.onMouseMove);
+        // 进来时就进入移动的状态（把中心置于小锤子的位置）
+        this.onMouseMove();
     };
 
     // 结束使用
